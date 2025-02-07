@@ -60,6 +60,7 @@ header span {
     font-family: "Inter", sans-serif;
     fill: #fff;
     padding: 100px 0;
+}
 
 select {
     /* Стили для выпадающего списка */
@@ -147,7 +148,7 @@ footer {
     /* Стили для футера */
     width: 100%;
     height: 70px;
-    background-color:rgba(163, 167, 255, 0.3);
+    background:rgba(163, 167, 255, 0.3);
     margin-top: 100px;
 }
 
@@ -157,4 +158,5 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
+    text-align: left;
     }
