@@ -7,6 +7,7 @@
 body {
      margin: 0 auto;
      font-family: "Inter", sans-serif;
+     color: #303030;
 }
 
 header {
@@ -87,13 +88,13 @@ select {
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    padding-left: 20px;
+    padding: 0 20px;
     list-style-image: url(./img/Vector.svg);
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 20px;    
+    padding: 0 20px;    
 }
 
 .label {
@@ -109,6 +110,7 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
+    font-size: 16px;
     background: rgba(255, 255, 255, 0);
 }
 
@@ -134,14 +136,14 @@ table {
     /* Стили для таблицы */
     width: 300px;
     height: 196px;
+    font-size: 14px;
     border-collapse: collapse;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
     color: #303030;
-    font-size: 14px;
-    padding-left: 15px;
+    padding: 12px 15px;
 }
 
 footer {
@@ -150,6 +152,7 @@ footer {
     height: 70px;
     background:rgba(163, 167, 255, 0.3);
     margin-top: 100px;
+    padding: 26px 0;
 }
 
 .footer-link {
@@ -159,4 +162,5 @@ footer {
     font-size: 14px;
     color: #2965f1;
     text-align: left;
+    text-decoration-line: none;
     }
